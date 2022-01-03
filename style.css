@@ -21,7 +21,7 @@ main{
 h1 {
 font-family: 'Big Shoulders Display', cursive;
 color: hsl(0, 0%, 95%);
-
+font-size: 2.3rem;
 }
 
 .div-cars{
@@ -35,8 +35,12 @@ color: hsl(0, 0%, 95%);
     line-height: 1.5;
 }
 
-.div-cars h1, p, a {
-    margin-top: 1.1rem;
+.div-cars a {
+    margin-top: 2.5rem;
+}
+
+p {
+    margin: 0;
 }
 
 .orange{
@@ -77,11 +81,11 @@ color: hsl(0, 0%, 95%);
 
 @media(min-width: 376px) {
     body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
     }
 
     main{
